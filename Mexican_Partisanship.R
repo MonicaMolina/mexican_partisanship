@@ -150,3 +150,28 @@ class(eqSeccion$orig.dest3)
 class(eqSeccion$when)
 class(eqSeccion$when.1)
 class(eqSeccion$when2)
+
+#changing the type of variable and applying the filter 
+
+eqSeccion$action <- factor(eqSeccion$action)
+eqSeccion$action2 <- factor(eqSeccion$action2)
+eqSeccion$action3 <- factor(eqSeccion$action3)
+eqSeccion$orig.dest <- factor(eqSeccion$orig.dest)
+eqSeccion$orig.dest2 <- factor(eqSeccion$orig.dest2)
+eqSeccion$orig.dest3 <- factor(eqSeccion$orig.dest3)
+eqSeccion$when <- factor(eqSeccion$when)
+eqSeccion$when.1 <- factor(eqSeccion$when.1)
+eqSeccion$when2 <- factor(eqSeccion$when2)
+
+class(eqSeccion$action)
+class(eqSeccion$action2)
+class(eqSeccion$action3)
+class(eqSeccion$orig.dest)
+class(eqSeccion$orig.dest2)
+class(eqSeccion$orig.dest3)
+class(eqSeccion$when)
+class(eqSeccion$when.1)
+class(eqSeccion$when2)
+
+summary(eqSeccion$action)
+summary(eqSeccion$orig.dest)
